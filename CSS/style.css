@@ -191,11 +191,6 @@ div{
 
 @media (min-width: 768px){
 
-	 div{
-	 	display: flex;
-	 	flex-direction: column;
-	 }
-
 }
 
 
