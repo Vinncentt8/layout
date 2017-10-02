@@ -131,21 +131,6 @@ div{
     margin: 10px;
 }
 
-.flex-item3{
-	background-color: grey;
-    width: 300px;
-    height: 125px;
-    margin: 10px;
-}
-
-.flex-item4{
-	background-color: grey;
-    width: 300px;
-    height: 125px;
-    margin: 10px;
-}
-
-
 #netflix {
 	width: 200px; 
 	height: 50px;
@@ -154,16 +139,11 @@ div{
 #netflix2{
 	width: 300px;
     height: 250px;
-    margin: 30px;
-    
-
  }
 
 #npo{
 	width: 50px;
 	height: 50px;
-	
-
 }
 
 #moviemax{
@@ -177,24 +157,39 @@ div{
 }
 
 
-@media screen and (max-width: 480px){
-	  main.container{
+@media (max-width: 460px){
+	 main.container{
 			flex-direction: row;
+			display: table;
+			margin-left: 20px;
+			margin-right: 20px;
 			}
-	 div{
-	 	display: flex;
-	 	flex-direction: column;
-	 }
+	.middel{
+			margin-left: 20px;
+			margin-right: 20px;
+			}
+	aside{
+			width: 200px;
+			margin-left: 10px;
+			margin-right: 20px;
+		}
+	#foto{
+			width: 200px;
+	}
+	
+
+}
+
+
 
 
 }
 
-@media (min-width: 768px){
-
+#footer {
+    background-color: #F3F3F3;
+    padding-top: 10px;
+    padding-bottom: 0px;
 }
-
-
-
 
 .flex-item1:nth-of-type(1){
 	order: 1;
